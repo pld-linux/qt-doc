@@ -9,8 +9,8 @@ Summary:	Documentation for QT
 Summary(pl):	Dokumentacja QT
 Name:		qt-doc
 Version:	%{_ver}
-Release:	1
-License:	UNKNOWN. Query sent to trolltech, no reply yet.
+Release:	2
+License:	Distributable
 Group:		Documentation
 Source0:	%{name}-%{_dir}.tar.bz2
 BuildRequires:	sed
