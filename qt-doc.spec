@@ -9,8 +9,8 @@ Summary:	Documentation for QT
 Summary(pl):	Dokumentacja QT
 Name:		qt-doc
 Version:	%{_ver}
-Release:	2
-License:	Distributable
+Release:	3
+License:	distributable
 Group:		Documentation
 Source0:	%{name}-%{_dir}.tar.bz2
 BuildRequires:	sed
