@@ -16,7 +16,7 @@ Source0:	%{name}-%{_dir}.tar.bz2
 # Source0-md5:	2b930686d40f5316e95f90675218cf49
 BuildRequires:	sed
 URL:		http://doc.trolltech.com/3.0/
-BuildRoot:	%{tmpdir}/%{name}-%{_ver}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Package contains mirror of doc.trolltech.com/3.0/ There are various
@@ -28,8 +28,6 @@ tutoriale, opisy API i inne dokumenty.
 
 %prep
 %setup -q -n %{name}-%{_dir}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
