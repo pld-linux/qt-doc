@@ -5,8 +5,8 @@
 %define		_dir		%{_qt_ver}-%{_mirror_date}
 %define		_ver		%(echo %{_dir} | sed 's/-/_/g')
 
-Summary:	Documentation for QT
-Summary(pl):	Dokumentacja QT
+Summary:	Documentation for Qt
+Summary(pl):	Dokumentacja Qt
 Name:		qt-doc
 Version:	%{_ver}
 Release:	3
