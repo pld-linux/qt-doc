@@ -13,6 +13,7 @@ Release:	3
 License:	distributable
 Group:		Documentation
 Source0:	%{name}-%{_dir}.tar.bz2
+# Source0-md5:	2b930686d40f5316e95f90675218cf49
 BuildRequires:	sed
 URL:		http://doc.trolltech.com/3.0/
 BuildRoot:	%{tmpdir}/%{name}-%{_ver}-root-%(id -u -n)
