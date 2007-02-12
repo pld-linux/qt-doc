@@ -6,7 +6,7 @@
 %define		_ver		%(echo %{_dir} | sed 's/-/_/g')
 
 Summary:	Documentation for Qt
-Summary(pl):	Dokumentacja Qt
+Summary(pl.UTF-8):   Dokumentacja Qt
 Name:		qt-doc
 Version:	%{_ver}
 Release:	3
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Package contains mirror of doc.trolltech.com/3.0/ There are various
 tutorials, APIs and other documents.
 
-%description -l pl
-Pakiet zawiera mirror doc.trolltech.com/3.0/ Znajduj± siê w nim ró¿ne
+%description -l pl.UTF-8
+Pakiet zawiera mirror doc.trolltech.com/3.0/ ZnajdujÄ… siÄ™ w nim rÃ³Å¼ne
 tutoriale, opisy API i inne dokumenty.
 
 %prep
