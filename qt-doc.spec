@@ -6,7 +6,7 @@
 %define		_ver		%(echo %{_dir} | sed 's/-/_/g')
 
 Summary:	Documentation for Qt
-Summary(pl.UTF-8):   Dokumentacja Qt
+Summary(pl.UTF-8):	Dokumentacja Qt
 Name:		qt-doc
 Version:	%{_ver}
 Release:	3
